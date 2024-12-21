@@ -104,10 +104,17 @@ section {
     height: 50px;
     color: white;
 }
-
-.group-img-container {
+.head-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
     width: 90%;
     margin: auto;
+}
+
+.group-img-container {
+   
 }
 
 .bonus-content {
