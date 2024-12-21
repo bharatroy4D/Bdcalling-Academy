@@ -1,0 +1,34 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+.nav-icon img {
+    width: 150px;
+}
+
+.manu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;;
+
+}
+.manu-container li {
+    font-size: large;
+    font-weight: bold;
+    list-style: none;
+}
+.primary-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}
