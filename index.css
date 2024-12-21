@@ -13,7 +13,7 @@ section {
     align-items: center;
     width: 90%;
     margin: auto;
-    padding-top: 15px;
+    padding: 15px;
 }
 
 .nav-icon img {
@@ -25,7 +25,6 @@ section {
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-    ;
 
 }
 
@@ -64,7 +63,7 @@ section {
 
 .hero-content h1 {
     font-size: 40px;
-    color: blueviolet;
+    color: rgb(104, 49, 156);
 }
 
 .hero-content p {
@@ -85,21 +84,58 @@ section {
     font-size: 28px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.popular-button{
+
+.popular-button {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     gap: 15px;
     margin-top: 15px;
 }
 
 .popular-btn {
-    background-color: blue;
+    background-color: blueviolet;
+    margin-top: 20px;
     padding: 10px 20px;
-    border:none;
+    border: none;
     border-radius: 7px;
     font-size: 16px;
     font-weight: bold;
     height: 50px;
     color: white;
-
 }
+
+.group-img-container {
+    width: 90%;
+    margin: auto;
+}
+
+.bonus-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 120px;
+    border: 2px solid;
+    box-shadow: 1px 1px 15px;
+    border: none;
+}
+
+.bonus-content img {
+    width: 70px;
+    text-align: center;
+}
+
+.bonus-content h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+}
+
+.bonus-content p {
+    font-weight: bold;
+    padding-left: 7px;
+    text-align: center;
+}
+
+.group-img img {}
