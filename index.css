@@ -104,32 +104,51 @@ section {
     height: 50px;
     color: white;
 }
-.head-group{
+
+.head-group {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
     width: 90%;
     margin: auto;
+    position: relative;
+    margin-top: 100px;
+
 }
 
 .group-img-container {
-   
+    position: relative;
+    width: 50%;
+
+
 }
 
 .bonus-content {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    background-color: white;
+    border-radius: 7px;
     width: 120px;
     border: 2px solid;
     box-shadow: 1px 1px 15px;
     border: none;
+    position: absolute;
+    bottom: 520px;
+    left: 50px;
+}
+
+.monir-sir {
+    position: absolute;
+    top: 300px;
+    right: 250px;
 }
 
 .bonus-content img {
     width: 70px;
     text-align: center;
+    padding: 15px;
 }
 
 .bonus-content h1 {
@@ -145,4 +164,109 @@ section {
     text-align: center;
 }
 
-.group-img img {}
+.group-img img {
+    margin-left: 100px;
+}
+
+.group-details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+}
+
+.flexible-title {
+    position: absolute;
+    top: 230px;
+    left: 200px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.flexible {
+    width: 400px;
+}
+
+.flexible-description {
+    position: absolute;
+    top: 300px;
+    left: 160px;
+}
+
+.radio-title {
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 5px;
+}
+
+.radio-container {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 30px; */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    width: 90%;
+    margin: auto;
+}
+
+.bdcalling {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-card {
+    width: 20%;
+    gap: 40px;
+    margin-top: 50px;
+
+}
+
+.social-media {}
+
+.social-media img {
+    width: 40px;
+    border-radius: 30%;
+    margin-left: 6px;
+}
+
+
+.useful-link div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 45px;
+}
+
+.course-category {
+    display: flex;
+    flex-direction: column;
+
+}
+.category-title p{
+    margin-top: 10px;
+}
+
+.contact-info {}
+
+.contact-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.contact-card {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.contact-card img {
+    width: 40px;
+    border-radius: 50%;
+}
