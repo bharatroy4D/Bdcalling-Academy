@@ -63,7 +63,7 @@ section {
 
 .hero-content h1 {
     font-size: 40px;
-    color: rgb(104, 49, 156);
+    color: rgb(28, 24, 31);
 }
 
 .hero-content p {
@@ -209,16 +209,15 @@ section {
 .company-icon-container {
     width: 90%;
     margin: auto;
-    border-top: dotted;
 }
 
 .icon-btn-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top:25px;
+    padding-top: 50px;
     margin-bottom: 60px;
-
+    border-bottom: double;
 }
 
 .icon-content {
@@ -287,7 +286,7 @@ section {
 .contact-icon {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
     margin-top: 30px;
 }
 
